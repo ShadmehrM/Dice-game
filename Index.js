@@ -1,5 +1,5 @@
 var rndNumber1 = Math.floor(Math.random() * 6) + 1;
-var rndImg = "images/" + "dice" + rndNumber1 + ".png";
+var rndImg = "dice" + rndNumber1 + ".png";
 
 var tossOne = document.getElementsByClassName("img")[0];
 
@@ -8,7 +8,7 @@ tossOne.setAttribute("src", rndImg);
 //************************************************************************************************ */
 
 var rndNumber2 = Math.floor(Math.random() * 6) + 1;
-var rndImg2 = "images/" + "dice" + rndNumber2 + ".png";
+var rndImg2 = "dice" + rndNumber2 + ".png";
 
 var tossTwo = document.getElementsByClassName("img")[1];
 tossTwo.setAttribute("src", rndImg2);
